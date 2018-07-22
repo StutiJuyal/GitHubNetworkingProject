@@ -56,8 +56,8 @@ public class UserDetailActivity extends AppCompatActivity {
                if(user != null) {
                    Picasso.with(getApplicationContext()).load(user.getUrl()).into(imageView);
                    nameTextView.setText("Name:"+name);
-                   followers.setText("Followers :"+String.valueOf(user.getFollowers()));
-                   following.setText("Following :"+String.valueOf(user.getFollowing()));
+                   followers.setText("Number of Followers :"+String.valueOf(user.getFollowers()));
+                   following.setText("Number of Following :"+String.valueOf(user.getFollowing()));
                }
                else
                {
