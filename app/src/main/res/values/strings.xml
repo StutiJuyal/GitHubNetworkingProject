@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GitHubNetworkingProject</string>
+    <string name="title_activity_followers">FollowersActivity</string>
+</resources>
