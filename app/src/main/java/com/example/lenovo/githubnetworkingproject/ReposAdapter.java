@@ -36,7 +36,7 @@ public class ReposAdapter extends RecyclerView.Adapter<ReposView>{
     public void onBindViewHolder(@NonNull ReposView viewHolder, int i) {
         Repository repository=repositories.get(i);
         String position=String.valueOf(i+1);
-        viewHolder.NumberingTextView.setText(position + " ");
+        viewHolder.NumberingTextView.setText(position + ".)");
         viewHolder.ReposName.setText(repository.fullName);
     }
 
