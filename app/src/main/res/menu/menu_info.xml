@@ -2,5 +2,5 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:id="@+id/infoItem" android:title="About Us" android:onClick="OpenInfoActivity" android:icon="@drawable/info_information_user_about_card_button_symbol_icon" app:showAsAction="always"/>
+    <item android:id="@+id/infoItem" android:title="About Us" android:icon="@drawable/info_information_user_about_card_button_symbol_icon" app:showAsAction="always"/>
 </menu>

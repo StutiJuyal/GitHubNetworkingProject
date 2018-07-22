@@ -32,12 +32,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public boolean onOptionsItemSelected(MenuItem menuItem)
     {
-        return true;
-    }
-    public void OpenInfoActivity(View view)
-    {
         Intent intent=new Intent(this,MenuActivity.class);
         startActivity(intent);
+        return true;
     }
-
 }
